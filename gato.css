@@ -1,0 +1,51 @@
+body{
+    background-image: url(../El-Gato-/gifff.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    box-shadow: 6px 6px 6px ; 
+    line-height: 100px ;
+    font-size: 50px;
+    cursor: pointer;
+    color: rgb(235, 229, 235);
+   
+
+}
+#gamecontainer{
+    font-family:"permanent marker", cursive;
+    text-align: center;
+    margin-left: -8%;
+    margin-top: 6%;
+   
+    
+}
+
+#cellcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+    
+}
+.gat{
+    margin-left: 8%;
+   text-shadow: 2px 2px 5px;
+   color: aliceblue;
+}
+#restarBtn{
+   margin-left: 45%;
+   border-color: rgb(255, 0, 230);
+   border-radius: 30vh;
+   color: rgb(16, 15, 16);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+#statustext{
+    margin-left: 40%;
+    color: aliceblue;
+}
