@@ -1,6 +1,8 @@
 body{
-    background-image: url(../elgatojs/gifff.gif);
-    background-size: 100%;
+    background-image: url(img/gifff.gif);
+   
+    background-size: 95%;
+    
    
 }
 
@@ -18,7 +20,7 @@ body{
 #gamecontainer{
     font-family:"permanent marker", cursive;
     text-align: center;
-    margin-left: -8%;
+    margin-left: -15%;
     margin-top: 6%;
    
     
@@ -49,3 +51,13 @@ body{
     margin-left: 40%;
     color: aliceblue;
 }
+
+
+audio{
+
+filter: invert();
+margin-right: 50%;
+}
+
+
+

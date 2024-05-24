@@ -133,3 +133,11 @@ function maquina() {
 
 // Iniciar el juego cuando se carga la página
 iniciarGame();
+
+//musica
+
+var audio =document.getElementById("miaudio");
+
+function reproducirAudio(){
+    audio.play();
+}
